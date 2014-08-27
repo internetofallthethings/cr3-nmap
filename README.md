@@ -14,15 +14,16 @@ Scripts
 
 + cr3-fingerprint.nse : Hosts with TCP:789 open will be fingerprinted
 
-    Nmap scan report for redlion.example.com (127.0.0.1)
-    Host is up (0.14s latency).
-    Not shown: 1021 filtered ports
-    PORT    STATE SERVICE
-    80/tcp  open  http
-    502/tcp open  asa-appl-proto
-    789/tcp open  unknown
-    | cr3-fingerprint: 
-    | Manufacturer: Red Lion Controls
-    |_Model: G310C2
-
+```
+Nmap scan report for redlion.example.com (127.0.0.1)
+Host is up (0.14s latency).
+Not shown: 1021 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+502/tcp open  asa-appl-proto
+789/tcp open  unknown
+| cr3-fingerprint: 
+| Manufacturer: Red Lion Controls
+|_Model: G310C2
+```
 
